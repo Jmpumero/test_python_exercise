@@ -11,16 +11,18 @@ if __name__ == "__main__":
 
     for key in list_key:
         j = i + 1
-        for value in list_value:
-            if j < len(list_key):
+        if i < len(list_key):
+            for value in list_value:
+                if j < len(list_key):
 
-                print(
-                    list_key[i],
-                    "-",
-                    list_key[j],
-                    ":",
-                    compare_list(list_value[i], list_value[j]),
-                )
+                    print(
+                        list_key[i],
+                        "-",
+                        list_key[j],
+                        ":",
+                        compare_list(list_value[i], list_value[j]),
+                    )
 
-            j += 1
+                j += 1
+
         i += 1

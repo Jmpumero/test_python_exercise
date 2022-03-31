@@ -1,7 +1,14 @@
-def convert_time(time):
-    new_time = int(time.replace(":", ""))
+from cmath import e
 
-    return new_time
+
+def convert_time(time):
+    try:
+        new_time = int(time.replace(":", ""))
+        if new_time >= 0 and new_time <= 2359:
+            return new_time
+    except Exception as e:
+        print(e)
+        return -1
 
 
 def create_obj(time):
