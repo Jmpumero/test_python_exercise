@@ -18,10 +18,10 @@
 
 # Environment:
 
-    python 3.9.5
+python 3.9.5
 
-    to run the program you must install python version 3.9 or higher, open a terminal in the directory where you find the files: main.py,lib.py and example.txt. in the terminal **run the command**:
-    `python main.py`
+to run the program you must install python version 3.9 or higher, open a terminal in the directory where you find the files: main.py,lib.py and example.txt. in the terminal **run the command:**
+`python main.py`
 
 # Solution:
 
@@ -55,8 +55,8 @@ Based on a modular design it is divided in 3 main files: main.py, lib.py and exa
 
         Data traversal and comparison: Once the entire file was read and the data was stored in a well-defined structure, we proceeded to run through this structure to make the corresponding comparisons between each employee. Using two for cycles, the external one which goes through the employees and the internal one which goes through the schedule of each employee, for the comparison of the schedule ranges I approached it in the following way supported by this drawing:
 
-- A1=.....|**\_**|................|**\*\***\_\_**\*\***|
-- A2=.|\_|......|\_**\_|.....|\_\_\_**|.........|**_|............|_**|
+- A1=.....I#####I................I##############I
+- A2=..I#I......I###I.....I#####I.........I###I............I###I
 
 min1<=max2 and max1>=min2 then is a valid range
 
